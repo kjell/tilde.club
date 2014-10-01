@@ -1,0 +1,8 @@
+.gem
+.ssh
+public_html/*~
+public_html/*.swp
+.viminfo
+.vim/.netrwhist
+.bash_history
+.bash_logout

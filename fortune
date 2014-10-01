@@ -1,0 +1,2 @@
+#!/bin/sh
+curl -I --silent https://http-fortune-cookie.herokuapp.com | grep Cookie | cut -d' ' -f2 | sed 's/+/ /g; s/%\(..\)/ /g'
