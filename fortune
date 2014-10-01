@@ -1,2 +1,2 @@
 #!/bin/sh
-curl -I --silent https://http-fortune-cookie.herokuapp.com | grep Cookie | cut -d' ' -f2 | sed 's/+/ /g; s/%\(..\)/ /g'
+curl -I --silent https://http-fortune-cookie.herokuapp.com | grep Cookie | cut -d' ' -f2 | ruby -rcgi -e 'printf CGI.unescape(ARGF.read)'
