@@ -1,7 +1,8 @@
 .gem
 .ssh
 public_html/*~
-public_html/*.swp
+**.swp
+public_html/tildes/*.finger
 .viminfo
 .vim/.netrwhist
 .bash_history
