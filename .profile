@@ -1,1 +1,2 @@
-mesg y
+mesg n
+export PATH=~/bin:$PATH
